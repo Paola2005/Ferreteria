@@ -39,6 +39,14 @@ internal class Program{
                 Console.WriteLine("");
                 break;
                 case "5":
+                Ferreteria.Fifth();
+                Console.ReadKey();
+                Console.WriteLine("");
+                break;
+                case "6":
+                Ferreteria.Sixth();
+                Console.ReadKey();
+                Console.WriteLine("");
                 break;
                 default:
                 Console.WriteLine("Chao");

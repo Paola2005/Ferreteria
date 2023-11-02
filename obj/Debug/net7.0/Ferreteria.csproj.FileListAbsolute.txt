@@ -12,3 +12,17 @@ C:\Users\APM02-44\trabajo\Ferreteria\obj\Debug\net7.0\refint\Ferreteria.dll
 C:\Users\APM02-44\trabajo\Ferreteria\obj\Debug\net7.0\Ferreteria.pdb
 C:\Users\APM02-44\trabajo\Ferreteria\obj\Debug\net7.0\Ferreteria.genruntimeconfig.cache
 C:\Users\APM02-44\trabajo\Ferreteria\obj\Debug\net7.0\ref\Ferreteria.dll
+C:\Users\velas\Ferreteria\bin\Debug\net7.0\Ferreteria.exe
+C:\Users\velas\Ferreteria\bin\Debug\net7.0\Ferreteria.deps.json
+C:\Users\velas\Ferreteria\bin\Debug\net7.0\Ferreteria.runtimeconfig.json
+C:\Users\velas\Ferreteria\bin\Debug\net7.0\Ferreteria.dll
+C:\Users\velas\Ferreteria\bin\Debug\net7.0\Ferreteria.pdb
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.AssemblyInfoInputs.cache
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.AssemblyInfo.cs
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.dll
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\refint\Ferreteria.dll
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.pdb
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\Ferreteria.genruntimeconfig.cache
+C:\Users\velas\Ferreteria\obj\Debug\net7.0\ref\Ferreteria.dll
