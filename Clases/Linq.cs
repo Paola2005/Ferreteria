@@ -148,7 +148,40 @@ namespace Ferreteria.Clases
                     IdProduct = 2,
                     Cantidad = 700,
                     Valor = 20000
-                }
+                },
+                new DetalleFact()
+                {
+                    IdDetalle = 4,
+                    NroFact = 12,
+                    IdProduct = 4,
+                    Cantidad = 500,
+                    Valor = 600000
+                },
+                new DetalleFact()
+                {
+                    IdDetalle = 5,
+                    NroFact = 13,
+                    IdProduct = 6,
+                    Cantidad = 8200,
+                    Valor = 1230000
+                },
+                new DetalleFact()
+                {
+                    IdDetalle = 6,
+                    NroFact = 13,
+                    IdProduct = 6,
+                    Cantidad = 800,
+                    Valor = 90000
+                },
+                new DetalleFact()
+                {
+                    IdDetalle = 6,
+                    NroFact = 14,
+                    IdProduct = 5,
+                    Cantidad = 200,
+                    Valor = 90000
+                },
+
 
             };
 
@@ -205,7 +238,7 @@ namespace Ferreteria.Clases
                     join detalle in _Detalle on factura.NroFact equals detalle.NroFact
                     join producto in _Productos on detalle.IdProduct equals producto.IdProduct
                     where factura.NroFact == nroFactura
-                    select producto.NombreProduct
+                    select new {producto.NombreProduct, detalle.Cantidad, detalle.Valor}
                 ).ToList();
 
                 if (productosEnFactura.Any())
@@ -213,7 +246,7 @@ namespace Ferreteria.Clases
                     Console.WriteLine("Productos vendidos en la factura:");
                     foreach (var producto in productosEnFactura)
                     {
-                        Console.WriteLine(producto);
+                        Console.WriteLine($"Nombre={producto.NombreProduct}, Cantidad={producto.Cantidad}, Valor={producto.Valor}");
                     }
                 }
                 else
