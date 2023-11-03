@@ -232,5 +232,7 @@ namespace Ferreteria.Clases
             var valorTotalInventario = _Productos.Sum(p => p.PrecioUnit * p.Cantidad);
             Console.WriteLine($"El valor total del inventario es: {valorTotalInventario}");
         }
+
+        
     }
 }
